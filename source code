@@ -33,18 +33,7 @@ client.on("message", message => {
   if (message.content === "why should i listen to you") {
     message.channel.send("I am all knowing")
   }
-  if (message.content === "who is creepz") {
-    message.channel.send(" ~~he is a creep~~ he is the creepz. dont mess with him")
-  }
-  if (message.content === "who is scholiboi") {
-    message.channel.send("Scholar Boy")
-  }
-  if (message.content === "who is kauz") {
-    message.channel.send("Thanda Baccha")
-  }
-  if (message.content === "who is shivansh") {
-    message.channel.send("Intrepid's friend")
-  }
+  
   if(message.content === "nameme") {
     let nicknames = ["hindustani bhau","carry bhai","ricardo","rick astley","bhangaarwala","BE ACTIVE","memer"]
     message.channel.send(`${nicknames[Math.floor(Math.random() *nicknames.length)]} is your new name`)
@@ -79,12 +68,6 @@ if(message.content === "^doggo") {
 }
   // Edit from march 23
   
-  if  (message.content === "who is aj") {
-    message.channel.send("Vella insaan 101")
-  }
-  if (message.content === "who is darkraff") {
-    message.channel.send("Banana Boi")
-  }
   if(message.content === "who is dank memer") {
     message.channel.send("A bot I strive to be like")
   }
@@ -97,9 +80,7 @@ if(message.content === "^doggo") {
   if (message.content === "artileria") {
     message.channel.send("https://www.youtube.com/watch?v=GW6GSa14xXI")
   }
-  if (message.content ==="backstabbers") {
-    message.channel.send("https://discord.gg/zQwUaGeu4M")
-  }
+
   message.channel.bulkDelete("clear")
 message.channel.send(`:white_check_mark: | \`Succesfully cleared ${"clear"} messages! | If purge fails please make sure I have MANAGE_MESSAGES to make the purge seccessful.\` `)
 .then(message => 
